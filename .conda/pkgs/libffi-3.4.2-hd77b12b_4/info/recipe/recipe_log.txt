@@ -1,0 +1,809 @@
+commit 85f6e8962bddc362115ae8e8266eea45dd4f811c
+Merge: aed0797 20f0491
+Author: Charles Bousseau <16641587+cbouss@users.noreply.github.com>
+Date:   Fri Jun 10 12:27:48 2022 -0400
+
+    Merge pull request #10 from AnacondaRecipes/cb_win_pkgconfig
+    
+    Add pkgconfig to win
+
+commit 20f04913fbed500f870bfb7428e5c5292221a262
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Fri Jun 10 11:58:57 2022 -0400
+
+    add license_family
+
+commit b6008cfb43569d6534df3f6a82de66cb8f88cb2c
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Fri Jun 10 11:57:26 2022 -0400
+
+    add pkgconfig check
+
+commit 943e7df76ef74a541142e2b748afa1ad4b9b9b3d
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Fri Jun 10 11:29:22 2022 -0400
+
+    Add pkgconfig to win
+
+commit aed0797607886adae808ef6b3379f01643d6880d
+Merge: 4062425 c4aebfb
+Author: Kyle Leaders <remkade@users.noreply.github.com>
+Date:   Wed Dec 15 12:37:35 2021 -0800
+
+    Merge pull request #9 from AnacondaRecipes/libffi_tests
+    
+    added test suite triggering script
+
+commit c4aebfbb8152ae1a45c3b09fe3bf9947d6201881
+Merge: c6d015b 8b4a2f0
+Author: abolla22 <abolla@anaconda.com>
+Date:   Wed Dec 15 14:16:18 2021 -0600
+
+    Merge branch 'libffi_tests' of github.com:AnacondaRecipes/libffi-feedstock into libffi_tests
+
+commit c6d015bb04abc983e716f9be0c2870ff5d7d55b2
+Author: abolla22 <abolla@anaconda.com>
+Date:   Wed Dec 15 14:15:53 2021 -0600
+
+    fix linux test failured
+
+commit 8b4a2f0499f20e93ba0ec11e48d788c6571ae54e
+Merge: cc70dff 4062425
+Author: abolla22 <89803668+abolla22@users.noreply.github.com>
+Date:   Tue Dec 14 18:00:46 2021 -0500
+
+    Merge branch 'master' into libffi_tests
+
+commit cc70dffccc4eddca7faeaaae47971df6fba05308
+Author: abolla22 <abolla@anaconda.com>
+Date:   Tue Dec 14 16:59:06 2021 -0600
+
+    added test suite triggering script
+
+commit 4062425ae3dfad0d5bbca0bdf70cd68055253f9b
+Merge: aa9380e 48bdfef
+Author: Kai Tietz <47363620+katietz@users.noreply.github.com>
+Date:   Wed Nov 10 12:26:58 2021 +0100
+
+    Merge pull request #8 from AnacondaRecipes/update-3.4.2
+    
+    fix typo
+
+commit 48bdfefb2c47669bda98c03cf6073282d7932a20
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Wed Nov 10 12:22:25 2021 +0100
+
+    fix typo
+
+commit aa9380e59c916fc98c3468c9627717ea37f675a8
+Merge: a9cb236 80bf7ef
+Author: Kai Tietz <47363620+katietz@users.noreply.github.com>
+Date:   Wed Nov 10 11:54:23 2021 +0100
+
+    Merge pull request #7 from AnacondaRecipes/fix_backward_compatib3.3
+    
+    add backward compatibility to 3.3
+
+commit 80bf7ef62729865174c3103d129fa822a2523e44
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Wed Nov 10 11:48:41 2021 +0100
+
+    add backward compatibility to 3.3
+
+commit a9cb23647413b5646f590532209eb40eca3cb8d6
+Merge: af72d5b bbf5354
+Author: Serhii Kupriienko <79282962+skupr-anaconda@users.noreply.github.com>
+Date:   Thu Nov 4 15:49:22 2021 +0200
+
+    Merge pull request #6 from AnacondaRecipes/update_3.4.2
+    
+    Update to 3.4.2 on s390x and arm64
+
+commit bbf5354ea06b3ff121c5e08a73d0a69a92b971c3
+Author: Serhii Kupriienko <skupriienko@anaconda.com>
+Date:   Thu Nov 4 11:26:45 2021 +0000
+
+    Update to 3.4.2 on s390x and arm64
+
+commit af72d5b64d263b6902d56786e9963fd528df85dd
+Merge: c8ee9e8 87bc614
+Author: Kai Tietz <47363620+katietz@users.noreply.github.com>
+Date:   Fri Oct 1 06:00:31 2021 +0200
+
+    Merge pull request #5 from AnacondaRecipes/libffi-3.4.2
+    
+    Libffi 3.4.2
+
+commit 87bc614cb568e591448f6ec3f1aa731747b481f3
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Thu Sep 30 15:06:53 2021 +0200
+
+    switch windows build to cmake
+
+commit 32f5a5d2bd83c97212b1ac1b394ef896547736b8
+Author: Daniel Holth <dholth@anaconda.com>
+Date:   Fri Aug 27 16:13:36 2021 -0400
+
+    correct archive
+
+commit b3bcf4db7b518919ca9886a8374ef8c5cabb6f0b
+Author: Daniel Holth <dholth@anaconda.com>
+Date:   Fri Aug 27 15:58:49 2021 -0400
+
+    update v3.3 patch against v3.4.2
+
+commit e116c78875918e5dc306eeca6928ccf0595aa4f4
+Merge: c8ee9e8 5dd6186
+Author: Daniel Holth <dholth@anaconda.com>
+Date:   Tue Aug 24 14:39:13 2021 -0400
+
+    Merge remote-tracking branch 'autotick/3.4.2_h625185'
+
+commit c8ee9e8757e8ec0fa43bf2033d4db5637071ded6
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Mon Aug 23 08:35:21 2021 +0200
+
+    fix libffi for osx and Apple's ffi_find_closure_for_code_np ...
+
+commit 5dd6186983c527536bf941e16f877508a9ba7e71
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Tue Jun 29 08:34:34 2021 +0000
+
+    MNT: Re-rendered with conda-build 3.21.4, conda-smithy 3.10.3, and conda-forge-pinning 2021.06.29.05.53.46
+
+commit 97e941d64424e0ce226f85b7a6f536d9f765ae71
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Tue Jun 29 08:34:26 2021 +0000
+
+    updated v3.4.2
+
+commit 3b77a2d09b1669c0a5acf53a9dcb47b8cfcb55a1
+Merge: fa60aeb 6051ffd
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Dec 7 11:36:59 2020 -0300
+
+    Merge pull request #32 from tschoonj/import-lib
+    
+    Windows: add ffi.lib
+
+commit 6051ffd2ce739d4e9d5bf15324de99081eb49dda
+Author: Tom Schoonjans <Tom.Schoonjans@rfi.ac.uk>
+Date:   Mon Dec 7 07:10:58 2020 +0000
+
+    Windows: add ffi.lib
+
+commit fa60aebd9ee26bf5bd9eaa5ee8d9966c8c7f55ab
+Merge: 3da7bc2 8d86e0c
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Thu Nov 26 03:39:24 2020 +0000
+
+    Fix building DLL
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 8d86e0cd30cce243b9dc4b23306bd4e0e6c03a52
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Nov 25 21:19:43 2020 -0600
+
+    check import lib
+
+commit f37aa68d4cfbb2f8a7b84fa755bc4f37ba5d5064
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Nov 25 21:04:24 2020 -0600
+
+    Fix windows DLL
+
+commit 3da7bc25c3e990d3962b5fb31251130e7f6a63db
+Merge: 7e67d7e 2116944
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Wed Nov 25 20:25:49 2020 +0000
+
+    Fix uploading and use native CI
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 211694437d5f76f4875d850729eba08fefb28772
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Wed Nov 25 20:06:47 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.5, conda-smithy 3.8.5, and conda-forge-pinning 2020.11.25.17.00.45
+
+commit 75787324a0e7d65aec5584e329cca3f098f62939
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Nov 25 14:03:32 2020 -0600
+
+    Fix uploading and use native CI
+
+commit 7e67d7eb82a0e3ff99dc05cabdf114848e5e059c
+Merge: 76b7356 ed604d7
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Wed Nov 25 13:08:40 2020 -0600
+
+    Merge pull request #27 from regro-cf-autotick-bot/3.3_h205469
+    
+    libffi v3.3
+
+commit 76b735666a65b55601407dfe7be10b8891a6df56
+Merge: 647c8e3 8a5b863
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Wed Nov 25 12:37:47 2020 -0600
+
+    Merge pull request #29 from isuruf/maint
+    
+    [skip ci] [ci skip] ***NO_CI*** add isuruf to maintainers
+
+commit 8a5b863884a5e69e2ff32a3db3951831edbef9a5
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Nov 25 12:01:26 2020 -0600
+
+    [skip ci] [ci skip] ***NO_CI*** add isuruf to maintainers
+
+commit ed604d75ce8a1bb9cc501e08d3ed4b01ac5b8eb0
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Nov 24 10:49:04 2020 -0600
+
+    delete patches
+
+commit 418379a7cfbc236fcc94b263c1c797498f5ea11f
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 21 09:43:37 2020 -0800
+
+    pin major.minor
+
+commit e06f5388b6610868d64bbfbf0543c585cc1b3777
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 21 09:41:57 2020 -0800
+
+    Fix linter and test for dll
+
+commit bd6cfe76e6a7ae201f969c928f422a93451c1c4f
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sat Nov 21 09:38:25 2020 -0800
+
+    Use autotools_clang_conda
+
+commit 15d65bcc2de5ea385277fd0014efd124dd5f3abb
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Sat Nov 21 15:44:06 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.5, conda-smithy 3.8.5, and conda-forge-pinning 2020.11.21.12.44.23
+
+commit 56b9bd82f0d141f8dc056850e04bfc9a7ba4e589
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Sep 29 10:22:54 2020 +0200
+
+    Fix Windows build
+
+commit 0ba7bf5e7baf4e1fb7e7c0b617aba4af5fc911b9
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Mon Oct 26 07:20:51 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.4, conda-smithy 3.8.2, and conda-forge-pinning 2020.10.26.03.51.59
+
+commit 149f6e45d4ace708e2f5a2b0bb5a61a1d4ad6e8b
+Merge: b523a27 647c8e3
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Mon Oct 26 02:18:45 2020 -0500
+
+    Merge branch 'master' into 3.3_h205469
+
+commit 647c8e3fe9b70e5e5e6f1ed81289983aec7eed11
+Merge: dffa274 1a752f1
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Wed Aug 12 01:07:07 2020 -0400
+
+    Merge pull request #28 from regro-cf-autotick-bot/bot-pr_arm_osx_h011819
+    
+    ARM OSX Migrator
+
+commit 1a752f16412218f6124fe4e3681c3141f90de5f7
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Aug 11 21:08:38 2020 -0500
+
+    Remove debug
+
+commit 3badd13a3a66a78ffef31a8350fee4c7bd9e866e
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Aug 11 20:18:53 2020 -0500
+
+    Remove debug
+
+commit bdf57d39cba45ff71172bce704e44e13aa991f90
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Aug 11 20:18:33 2020 -0500
+
+    Update conda-forge.yml
+
+commit 74fd95e524b32fe30add6a357aa0fec2544ad6d3
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Aug 11 17:11:45 2020 -0500
+
+    debug
+
+commit b0f86b57e0b5f307ee8958472f1c53769507e68d
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Aug 11 16:33:51 2020 -0500
+
+    print config.log
+
+commit 3cf74833843ad0885f84ebad7e8d8f73d3934d0b
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Aug 11 16:26:16 2020 -0500
+
+    Print config.log
+
+commit 0f2deb6f8c586a959e72dfb9441da24841e6d016
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Aug 11 20:37:15 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.8, and conda-forge-pinning 2020.08.10.21.36.31
+
+commit 49b2ecf690472e41f83632365a02e7b0b7f79edc
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Aug 11 20:37:03 2020 +0000
+
+    migration: OSXArm
+
+commit b523a278c73a40b1ae57d0cd8d5527b6d8025b8d
+Author: Christopher J. Wright <cjwright4242@gmail.com>
+Date:   Mon Aug 10 19:09:47 2020 -0400
+
+    update with prior changes
+
+commit 2a3213ed195ad63e7903f49f3802d49f712bf8bb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Aug 10 21:45:44 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.8, and conda-forge-pinning 2020.08.10.21.36.31
+
+commit b25f98917db21954670121c93a36353c4abd8f98
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Aug 10 21:45:30 2020 +0000
+
+    updated v3.3
+
+commit dffa2743cbba3a77defb253dd78ff23a7334733c
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat Aug 8 06:39:00 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit d8bedeea5787a55aa694579832e6a05b0d7d9f07
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:46:22 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit f8bb3a6591a6c91624ff18db6b397a77698c50f5
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 17:18:30 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 5ffafe8f5118e3100dcf94df7751b71b85e9a9c9
+Merge: f82e0b3 fec3cf9
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Wed Mar 18 14:19:05 2020 -0500
+
+    Merge pull request #23 from ryanvolz/win_pkgconfig
+    
+    Patch to fix pkg-config file on Windows so that libffi.lib is found.
+
+commit fec3cf9ee4703311327581605cec0538325addfc
+Author: Ryan Volz <rvolz@mit.edu>
+Date:   Tue Mar 17 18:20:02 2020 -0400
+
+    MNT: Re-rendered with conda-build 3.19.0, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.16
+
+commit 1f688e1d57811cae49048956443a2577420ac643
+Author: Ryan Volz <rvolz@mit.edu>
+Date:   Wed Mar 11 17:47:10 2020 -0400
+
+    Patch to fix pkg-config file on Windows so that libffi.lib is found.
+
+commit f82e0b3d96427aab2e21832e6f83861bb271a5f9
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 21:28:49 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 30f01f721dab064e898309df70ddad5bd08d13e6
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:26:53 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 0243c4aa719dfebbadf4db39e9a8990a8973abc6
+Merge: 5af88e6 d6b0eba
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Tue Mar 19 15:03:12 2019 -0400
+
+    Merge pull request #21 from notestaff/is-rerender-with-conda-smithy-3.3.0
+    
+    rerender with conda smithy 3.3.0
+
+commit d6b0eba352c6dcc07331ffccdc4bfa57e40d8351
+Author: Ilya Shlyakhter <ilya_shl@alum.mit.edu>
+Date:   Tue Mar 19 18:20:48 2019 +0000
+
+    bump build to 1006
+
+commit 702d5995a01ab220fe517baaff84bfc14d293289
+Author: Ilya Shlyakhter <ilya_shl@alum.mit.edu>
+Date:   Tue Mar 19 18:20:39 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.0, and conda-forge-pinning 2019.03.17
+
+commit 5af88e6e0b2d56616ceb7989297aa226fa8cb045
+Merge: 6a6b452 461a47c
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sun Feb 24 21:33:58 2019 -0500
+
+    Merge pull request #20 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition_arch
+    
+    Arch Migrator
+
+commit 461a47c61db4b5341e3473fb0f698c49f2d89351
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Feb 18 16:49:35 2019 -0500
+
+    Update meta.yaml
+
+commit 7e9ddd244d7b3daa86403757ccf70f194ccd5fe1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 18 17:18:02 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.15.1, conda-smithy 3.2.13, and conda-forge-pinning 2019.02.15
+
+commit 07eb995c7ffa8a43b0dc8a099b33cc6d8e818e1b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Feb 18 17:17:51 2019 +0000
+
+    bump build number
+
+commit 6a6b4521473496e6d224a6e09f67296c89a60c7d
+Merge: adfe2cd 166216d
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Thu Sep 13 12:14:53 2018 -0400
+
+    Merge pull request #17 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 166216dbe80dcb55a08d68ca26b37a6219f649b8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 13 12:18:20 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.11
+
+commit 2b7479d42b0e18f9125d1f34562e9c80878fa92a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 13 12:18:12 2018 +0000
+
+    bump build number
+
+commit adfe2cdbfaa7bbcc12a24829f846b7926cd32c99
+Merge: 7813075 60a0fdb
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Tue Sep 4 09:00:38 2018 -0400
+
+    Merge pull request #16 from pkgw/windows-fix
+    
+    Fix the Windows package: provide a static library, not a DLL.
+
+commit 60a0fdbe4f4f69156de06c7aa55dfc94b33803a3
+Author: Peter Williams <peter@newton.cx>
+Date:   Mon Sep 3 21:02:04 2018 -0400
+
+    Fix the Windows package: provide a static library, not a DLL.
+    
+    Well, it turns out that the attempt to build a libffi DLL didn't work. The
+    libffi source code isn't annotated with __declspec(dllexport) markers, so
+    exporting the correct symbols would be a pain. (The recent libffi 3.3 release
+    candidate should fix this, fortunately.) And the `.lib` file installed by
+    Libtool in the package turned out to be exactly the same file as the DLL,
+    not an import library at all. I attempted to use `LIB /DEF` to generate
+    an import library but it errored on the DLL executable format (message
+    like this: https://stackoverflow.com/q/9657040/3760486), so it seemed
+    wisest just to give up.
+    
+    The static library wasn't trouble-free. It was necessary to remove the "-GL"
+    flag from the environment, however. The "global link optimization" mode that
+    it enables seems to break the creation of static libraries via "ar cru" -- if
+    you run `nm` on the resulting file, you get "unknown file format" for the
+    object files compiled with that option active. It was also necessary to hack
+    the header to remove __declspec(dllimport) tags that would be adopted by users
+    -- otherwise they would look for symbols named like `__imp_ffi_foo`. Note that
+    this hack is essentially what's recommended in the header itself.
+    
+    I also switched the build script to remove `.la` files for all platforms,
+    since we're making a point of ditching them.
+
+commit 781307552300faa4a6fddc91fedfa8f5b6b33652
+Merge: 8148c6a 7b53317
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon Sep 3 09:56:42 2018 -0400
+
+    Merge pull request #15 from pkgw/windows
+    
+    Windows (MSVC + MSYS2), take 3
+
+commit 7b533172785feaf0f67a6442bfcaeb070521a7d7
+Author: Peter Williams <peter@newton.cx>
+Date:   Sun Sep 2 20:15:47 2018 -0400
+
+    Build patch needed for Visual Studio 2008.
+
+commit e87207808f60c663c9745145feadd702c80114fe
+Author: Peter Williams <peter@newton.cx>
+Date:   Sun Sep 2 19:34:57 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.31
+
+commit bac580dc50fd202ced7a9e28cb99d424d21bdc1c
+Author: Peter Williams <peter@newton.cx>
+Date:   Sun Sep 2 19:29:35 2018 -0400
+
+    Start building libffi on Windows.
+    
+    Building off of prior efforts by @mingwandroid and @scopatz, and cribbing a lot from
+    
+    http://hostagebrain.blogspot.com/2015/06/building-libffi-on-windows-by-visual.html
+    
+    The autotools and libtool can handle the MSVC toolchain in some fashions, but
+    for libffi we need to compile a .S assembler file, which ends up being tricky
+    to work with. The easiest approach is to use the custom compiler wrapper
+    scripts provided with libffi (`msvcc.sh`).
+
+commit 8148c6a582972b238f02a30d4979fef7c8e7d18b
+Merge: 40b1c91 b3583f5
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Aug 11 12:50:55 2018 -0300
+
+    Merge pull request #13 from ocefpaf/update_recipe
+    
+    Update recipe
+
+commit b3583f59b36c240f63171d24c8133ddd24a0efc6
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Aug 11 12:27:35 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.08.05
+
+commit 956fe9870792ead7a15c753f18e8557f70a44567
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Aug 11 12:26:14 2018 -0300
+
+    update recipe
+
+commit 40b1c9110533593a2f9583b65cc4e252a6235e32
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:04:05 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 93252215ad83b3fbae61872dd56c841b0687e17d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:18:09 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 1b5985f420296098aa66aa7fa400ce032ed45c58
+Merge: 8d44878 2fb20c8
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Wed Apr 26 12:18:00 2017 -0400
+
+    Merge pull request #11 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 2fb20c82d368e407975a821f64c1ae652f61031d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Apr 22 01:37:37 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.3.0.
+
+commit 8d44878425275cdcd38a7ead7ad7cc6157b2f6a8
+Merge: 1bcc771 a3e81b3
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Thu Jan 5 11:10:11 2017 -0800
+
+    Merge pull request #10 from shadowwalkersb/fix-includes
+    
+    Fix includes
+
+commit a3e81b32576f8e5cdec37fe39805602ff9e30a85
+Author: shadow_walker <shadowwalkersb@gmail.com>
+Date:   Thu Jan 5 10:30:23 2017 -0600
+
+    fix selector for testing static lib
+
+commit 6072e33dd3be64138545b0d28d08a2a67a0eb74a
+Author: shadow_walker <shadowwalkersb@gmail.com>
+Date:   Thu Jan 5 09:00:57 2017 -0600
+
+    bump build #: 3
+
+commit 29937c8a99f74426ae52c90ef11a477d3ad9da27
+Author: shadow_walker <shadowwalkersb@gmail.com>
+Date:   Thu Jan 5 01:41:03 2017 -0600
+
+    patch pkgconfig includedir
+
+commit 4fb3e1fea6d25146e66458fccb8738fdc0efc9c2
+Author: shadow_walker <shadowwalkersb@gmail.com>
+Date:   Thu Jan 5 00:19:39 2017 -0600
+
+    patch to fix configure option includedir
+
+commit 249f76f6ddb5825517558f84967a995f4e007e06
+Author: shadow_walker <shadowwalkersb@gmail.com>
+Date:   Wed Dec 28 17:40:30 2016 -0600
+
+    specify include dir
+
+commit f74f90f8dce16f3a07bd0dae4779d0e2f4e062fd
+Author: shadow_walker <shadowwalkersb@gmail.com>
+Date:   Thu Jan 5 00:22:16 2017 -0600
+
+    Revert "move include directory manually into place"
+    
+    This reverts commit 8ff659fe306f5bc9c8a98ed5c66caeb4d4771ed1.
+
+commit 8ff659fe306f5bc9c8a98ed5c66caeb4d4771ed1
+Author: shadow_walker <shadowwalkersb@gmail.com>
+Date:   Wed Dec 28 17:52:06 2016 -0600
+
+    move include directory manually into place
+
+commit 79fa9336d6110b767ec4013513a67964aaa0e26b
+Author: shadow_walker <shadowwalkersb@gmail.com>
+Date:   Wed Dec 28 17:50:10 2016 -0600
+
+    Revert "specify include dir"
+    
+    This reverts commit 83dca57b6b82a28ede4b0d6ce51b3a9b679d1594.
+
+commit 4f8b721afa390973ac99242f33cfd740bfad772b
+Author: shadow_walker <shadowwalkersb@gmail.com>
+Date:   Wed Dec 28 17:43:51 2016 -0600
+
+    add variable for name in recipe
+
+commit 83dca57b6b82a28ede4b0d6ce51b3a9b679d1594
+Author: shadow_walker <shadowwalkersb@gmail.com>
+Date:   Wed Dec 28 17:40:30 2016 -0600
+
+    specify include dir
+
+commit 8db771bfbf7468130cfa86517536ab3b5520b074
+Author: shadow_walker <shadowwalkersb@gmail.com>
+Date:   Wed Dec 28 17:34:31 2016 -0600
+
+    test for include files
+
+commit 1bcc771855bb5aae49391f06c42d23b1ed1d3519
+Merge: 82b6f91 525b36a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Dec 4 17:46:37 2016 -0500
+
+    Merge pull request #9 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 525b36a3aaccd82b1b461bf257f76b7c304867a4
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Dec 2 01:34:51 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.6.1.
+
+commit 82b6f915abc457fc5df47685f563c9700b03bf07
+Merge: 848a473 9e2b12a
+Author: Stefan Balke <stefan.balke@audiolabs-erlangen.de>
+Date:   Thu Oct 13 12:41:27 2016 +0200
+
+    Merge pull request #8 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 9e2b12a07e613183581290b462a79c8b80f272c9
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Oct 13 01:37:38 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.2.
+
+commit 848a4730ad473a79f8d71e48dd9ffd033018460e
+Merge: c28b2fb cad2603
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Sun Jun 5 08:14:00 2016 -0700
+
+    Merge pull request #6 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit cad260395670b2cd184e91af51a9c50bd00d9213
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon May 16 05:42:58 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit c28b2fb036bcf25f0edea70799bbfc38370f7a3f
+Merge: 56bca6c 80846fd
+Author: stefan-balke <stefan.balke@audiolabs-erlangen.de>
+Date:   Tue May 10 19:47:31 2016 +0200
+
+    Merge pull request #4 from scopatz/master
+    
+    more lib64 fixes
+
+commit 80846fdc33a7501530dd1c0918242f64d7b3bf26
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Tue May 10 12:47:04 2016 -0400
+
+    more lib64 fixes
+
+commit 56bca6cba710e067d649d405d9b3e61f37ff4e1c
+Merge: d2f10ff 465b078
+Author: stefan-balke <stefan.balke@audiolabs-erlangen.de>
+Date:   Tue May 10 08:15:48 2016 +0200
+
+    Merge pull request #3 from scopatz/master
+    
+    try to remove lib64
+
+commit 465b078545879ec571d9d60e7129fcedf1777f75
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon May 9 23:06:52 2016 -0400
+
+    change install loc
+
+commit 65b25d29ae00eb1a5f4d7e15d7f3bd3a8407683f
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon May 9 23:01:44 2016 -0400
+
+    insert
+
+commit 91c7cef7ea3b2e106d6499b53c0d1de2d7fb49d3
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon May 9 22:51:08 2016 -0400
+
+    added backslash
+
+commit 0715f9c59c2d3e2cb280c1f15899bb44f40c5e65
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Mon May 9 22:43:58 2016 -0400
+
+    try to remove lib64
+
+commit d2f10fffa493a6ba1803a9e40a99ccf69021cf08
+Merge: 179f22e 4ba1ccd
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Apr 12 12:29:57 2016 -0300
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 4ba1ccddbb65ce23fc01f36bad77c9e68847a769
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Apr 2 12:43:16 2016 +0100
+
+    MNT: Updated the feedstock for conda-smithy version 0.8.0.
+    
+    [ci skip]
+
+commit 179f22ee58850c1f2716bd80eb614f282a5356d7
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Mar 31 13:49:43 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 07083ba21d32f8d188eea23d6a1c84efcf77b44a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Mar 31 13:48:45 2016 +0000
+
+    Initial commit of the libffi feedstock.

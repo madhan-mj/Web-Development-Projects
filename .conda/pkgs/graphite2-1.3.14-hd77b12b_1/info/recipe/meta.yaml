@@ -1,0 +1,63 @@
+# This file created by conda-build 3.21.9
+# meta.yaml template originally from:
+# C:\ci\containers\00003h8kltl\tmp\build\80754af9\rsync-recipes\graphite2-1.3.14-on-winbuilder, last modified Thu Jun  2 08:12:41 2022
+# ------------------------------------------------
+
+package:
+  name: graphite2
+  version: 1.3.14
+source:
+  sha256: f99d1c13aa5fa296898a181dff9b82fb25f6cc0933dbaa7a475d8109bd54209d
+  url: https://github.com/silnrsi/graphite/releases/download/1.3.14/graphite2-1.3.14.tgz
+build:
+  number: '1'
+  run_exports:
+    - graphite2 >=1.3.14,<2.0a0
+  string: hd77b12b_1
+requirements:
+  build:
+    - bzip2 1.0.8 he774522_0
+    - cmake 3.22.1 h9ad04ae_0
+    - libuv 1.40.0 he774522_0
+    - lz4-c 1.9.3 h2bbff1b_1
+    - ninja-base 1.10.2 h6d14046_5
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.2.5 h8cc25b3_1
+    - zlib 1.2.12 h8cc25b3_2
+    - zstd 1.5.2 h19a0ad4_0
+  host:
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - if not exist %PREFIX%\Library\bin\graphite2.dll exit 1
+    - if not exist %PREFIX%\Library\include\graphite2\Segment.h exit 1
+    - if not exist %PREFIX%\Library\include\graphite2\Font.h exit 1
+    - if not exist %PREFIX%\Library\include\graphite2\Types.h exit 1
+    - if not exist %PREFIX%\Library\include\graphite2\Log.h exit 1
+about:
+  description: "Graphite is a system that can be used to create \u201Csmart fonts\u201D\
+    \ capable\nof displaying writing systems with various complex behaviors.\nA smart\
+    \ font contains not only letter shapes but also additional\ninstructions indicating\
+    \ how to combine and position the letters in complex ways.\n"
+  dev_url: https://github.com/silnrsi/graphite
+  doc_source_url: https://github.com/silnrsi/graphite/tree/master/doc
+  doc_url: https://graphite.sil.org/
+  home: https://graphite.sil.org/
+  license: LGPL-2.1-or-later
+  license_family: LGPL
+  license_file: COPYING
+  summary: A smart font technology and rendering system.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - mingwandroid
+    - ocefpaf
+    - pkgw

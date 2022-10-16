@@ -1,0 +1,10 @@
+{
+  "glib": "2",
+  "pixman": "0.40",
+  "cxx_compiler": "vs2017",
+  "icu": "58",
+  "target_platform": "win-64",
+  "channel_targets": "defaults",
+  "c_compiler": "vs2017",
+  "freetype": "2.10"
+}

@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "h6c2663c_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "expat-2.4.9-h6c2663c_0.conda",
+  "legacy_bz2_md5": "ae0bcac2e150cc47895d32d11b2beda2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "9941a970442abd937a8572aa44484524",
+  "name": "expat",
+  "platform": "win32",
+  "sha256": "91599d17ecad9c8f24c22712140108f2db55f7d9ef86ac3f419a14f9e632bc28",
+  "size": 211660,
+  "subdir": "win-64",
+  "timestamp": 1664286798141,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/expat-2.4.9-h6c2663c_0.conda",
+  "version": "2.4.9"
+}

@@ -1,0 +1,87 @@
+# This file created by conda-build 3.21.7
+# meta.yaml template originally from:
+# C:\ci\containers\000014l2sku\tmp\build\80754af9\rsync-recipes\gts-0.7.6-on-winbuilder, last modified Wed Mar 23 10:40:38 2022
+# ------------------------------------------------
+
+package:
+  name: gts
+  version: 0.7.6
+source:
+  - patches:
+      - config.in.win32.patch
+    sha256: 059c3e13e3e3b796d775ec9f96abdce8f2b3b5144df8514eda0cc12e13e8b81e
+    url: https://fossies.org/linux/privat/old/gts-0.7.6.tar.gz
+  - path: CMakeLists.txt
+build:
+  number: '3'
+  run_exports:
+    - gts >=0.7.6,<0.8.0a0
+  string: h63ab5a1_3
+requirements:
+  build:
+    - bzip2 1.0.8 he774522_0
+    - ca-certificates 2022.3.18 haa95532_0
+    - cmake 3.22.1 h9ad04ae_0
+    - libffi 3.4.2 h604cdb4_1
+    - libuv 1.40.0 he774522_0
+    - lz4-c 1.9.3 h2bbff1b_1
+    - m2-msys2-runtime 2.5.0.17080.65c939c 3
+    - m2-patch 2.7.5 2
+    - msys2-conda-epoch 20160418 1
+    - ninja 1.10.2 py310h6d14046_3
+    - openssl 1.1.1n h2bbff1b_0
+    - python 3.10.0 h96c0403_3
+    - sqlite 3.38.0 h2bbff1b_0
+    - tk 8.6.11 h2bbff1b_0
+    - tzdata 2021e hda174b7_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.2.5 h62dcd97_0
+    - zlib 1.2.11 hbd8134f_5
+    - zstd 1.5.0 h19a0ad4_1
+  host:
+    - glib 2.69.1 h5dc1a3c_1
+    - libffi 3.4.2 h604cdb4_1
+    - libiconv 1.15 h1df5818_7
+    - pcre 8.45 hd77b12b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - zlib 1.2.11 hbd8134f_5
+  run:
+    - glib >=2.69.1,<3.0a0
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - if not exist %LIBRARY_PREFIX%\\bin\\gts.dll exit 1
+about:
+  description: 'GTS stands for the GNU Triangulated Surface Library. It is an Open
+    Source
+
+    Free Software Library intended to provide a set of useful functions to
+
+    deal with 3D surfaces meshed with interconnected triangles. The code is
+
+    written entirely in C with an object-oriented approach based mostly on
+
+    the design of GTK+. Careful attention is paid to performance related
+
+    issues as the initial goal of GTS is to provide a simple and efficient
+
+    library to scientists dealing with 3D computational surface meshes.
+
+    '
+  dev_url: http://gerris.dalembert.upmc.fr/darcs/gts-stable/
+  doc_url: http://gerris.dalembert.upmc.fr/darcs/gts-stable/
+  home: http://gts.sourceforge.net/
+  license: LGPL-2.0-or-later
+  license_family: LGPL
+  license_file: COPYING
+  summary: GNU Triangulated Surface Library
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - seanyen

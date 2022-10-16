@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "hda2c7e1_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "freetype >=2.10.4,<3.0a0",
+    "glib >=2.69.1,<3.0a0",
+    "graphite2 >=1.3.14,<2.0a0",
+    "icu >=58.2,<59.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "harfbuzz-4.3.0-hda2c7e1_0.conda",
+  "legacy_bz2_md5": "581f0feb6d3fa7e755224e330f5906c0",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "6defa5f8edb023a84b659ca5375cb93d",
+  "name": "harfbuzz",
+  "platform": "win32",
+  "sha256": "49fac23892b351a248d87f47ce9a25bf8b81e993cdbf85267971ebb5d1cf78f8",
+  "size": 692734,
+  "subdir": "win-64",
+  "timestamp": 1656450591337,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/harfbuzz-4.3.0-hda2c7e1_0.conda",
+  "version": "4.3.0"
+}

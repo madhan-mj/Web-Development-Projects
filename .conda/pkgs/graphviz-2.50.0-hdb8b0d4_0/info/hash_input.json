@@ -1,0 +1,13 @@
+{
+  "fontconfig": "2.13",
+  "cxx_compiler": "vs2017",
+  "glib": "2",
+  "cairo": "1.16",
+  "c_compiler": "vs2017",
+  "target_platform": "win-64",
+  "channel_targets": "defaults",
+  "freetype": "2.10",
+  "expat": "2.2",
+  "libgd": "2.3.3",
+  "pixman": "0.40"
+}

@@ -1,0 +1,127 @@
+# This file created by conda-build 3.21.9
+# meta.yaml template originally from:
+# C:\ci\containers\00003htdm75\tmp\build\80754af9\rsync-recipes\cairo-1.16.0-on-winbuilder, last modified Thu Jun  2 13:03:48 2022
+# ------------------------------------------------
+
+package:
+  name: cairo
+  version: 1.16.0
+source:
+  patches:
+    - windows_enable_cairo_gobject.patch
+    - windows_pc_files.patch
+  sha256: 5e7b29b3f113ef870d1e3ecf8adf21f923396401604bda16d44be45e66052331
+  url: https://cairographics.org/releases/cairo-1.16.0.tar.xz
+build:
+  ignore_run_exports:
+    - pixman
+  number: '2'
+  run_exports:
+    - cairo >=1.16.0,<2.0a0
+  string: he04af86_2
+requirements:
+  build:
+    - m2-automake-wrapper 10 2
+    - m2-automake1.10 1.10.3 4
+    - m2-automake1.11 1.11.6 4
+    - m2-automake1.12 1.12.6 4
+    - m2-automake1.13 1.13.4 5
+    - m2-automake1.14 1.14.1 4
+    - m2-automake1.15 1.15 3
+    - m2-automake1.6 1.6.3 3
+    - m2-automake1.7 1.7.9 3
+    - m2-automake1.8 1.8.5 4
+    - m2-automake1.9 1.9.6 3
+    - m2-bash 4.3.042 5
+    - m2-coreutils 8.25 102
+    - m2-db 5.3.28 3
+    - m2-gawk 4.1.3 2
+    - m2-gcc-libs 5.3.0 4
+    - m2-gdbm 1.11 4
+    - m2-gettext 0.19.7 4
+    - m2-glib2 2.48.0 2
+    - m2-gmp 6.1.0 3
+    - m2-libasprintf 0.19.7 4
+    - m2-libcrypt 1.3 2
+    - m2-libdb 5.3.28 3
+    - m2-libffi 3.2.1 2
+    - m2-libgcrypt 1.6.4 2
+    - m2-libgdbm 1.11 4
+    - m2-libgettextpo 0.19.7 4
+    - m2-libgpg-error 1.21 2
+    - m2-libiconv 1.14 3
+    - m2-libintl 0.19.7 4
+    - m2-libltdl 2.4.6 3
+    - m2-liblzma 5.2.2 2
+    - m2-libpcre 8.38 2
+    - m2-libreadline 6.3.008 8
+    - m2-libtool 2.4.6 3
+    - m2-libxml2 2.9.2 3
+    - m2-libxslt 1.1.28 8
+    - m2-make 4.1 5
+    - m2-mpfr 3.1.4 2
+    - m2-msys2-runtime 2.5.0.17080.65c939c 3
+    - m2-ncurses 6.0.20160220 2
+    - m2-perl 5.22.1 2
+    - m2-pkg-config 0.29.1 2
+    - m2-tar 1.28 4
+    - m2-zlib 1.2.8 4
+    - msys2-conda-epoch 20160418 1
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.2.5 h8cc25b3_1
+  host:
+    - glib 2.69.1 h5dc1a3c_1
+    - libffi 3.4.2 h604cdb4_1
+    - libiconv 1.16 h2bbff1b_2
+    - libpng 1.6.37 h2a8f88b_0
+    - pcre 8.45 hd77b12b_0
+    - pixman 0.40.0 h2bbff1b_1
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - zlib 1.2.12 h8cc25b3_2
+  run:
+    - glib >=2.69.1,<3.0a0
+    - libpng >=1.6.37,<1.7.0a0
+    - pixman
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+    - zlib >=1.2.12,<1.3.0a0
+test:
+  commands:
+    - if not exist %LIBRARY_BIN%\\cairo.dll exit 1
+    - if not exist %LIBRARY_LIB%\\cairo.lib exit 1
+    - if not exist %LIBRARY_LIB%\\cairo-static.lib exit 1
+    - if not exist %LIBRARY_BIN%\\cairo-gobject.dll exit 1
+    - if not exist %LIBRARY_LIB%\\cairo-gobject.lib exit 1
+    - if not exist %LIBRARY_LIB%\\pkgconfig\\cairo.pc exit 1
+    - if not exist %LIBRARY_INC%\\cairo\\cairo.h exit 1
+about:
+  description: 'Cairo is a 2D graphics library with support for multiple output devices.
+
+    It is designed to produce consistent output on all output media while
+
+    taking advantage of display hardware acceleration when available.
+
+    '
+  dev_url: https://gitlab.freedesktop.org/cairo/cairo
+  doc_source_url: https://gitlab.freedesktop.org/cairo/cairo-www
+  doc_url: https://cairographics.org/documentation/
+  home: https://cairographics.org/
+  license: LGPL-2.1-or-later or MPL-1.1
+  license_family: LGPL
+  license_file:
+    - COPYING
+    - COPYING-LGPL-2.1
+    - COPYING-MPL-1.1
+  summary: Cairo is a 2D graphics library with support for multiple output devices.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - ccordoba12
+    - jakirkham
+    - ocefpaf
+    - pkgw

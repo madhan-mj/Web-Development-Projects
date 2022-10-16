@@ -1,0 +1,11 @@
+prefix=C:/ci/graphviz_1656619413174/_h_env/Library
+exec_prefix=C:/ci/graphviz_1656619413174/_h_env/Library
+libdir=C:/ci/graphviz_1656619413174/_h_env/Library/lib
+includedir=C:/ci/graphviz_1656619413174/_h_env/Library/include/graphviz
+
+Name: libgvpr
+Description: The GVPR library
+Version: 2.50.0
+Libs: -L${libdir} -lgvpr -lcgraph -lcdt
+Cflags: -I${includedir}
+

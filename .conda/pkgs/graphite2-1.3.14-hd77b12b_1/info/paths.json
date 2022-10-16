@@ -1,0 +1,67 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/gr2fonttest.exe",
+      "path_type": "hardlink",
+      "sha256": "1454b2b5cd3441fe37181689f30b731d63a46fc70f1fc68e80f5846abb1fa06f",
+      "size_in_bytes": 22016
+    },
+    {
+      "_path": "Library/bin/graphite2.dll",
+      "path_type": "hardlink",
+      "sha256": "a545b927b18a75c92518528f870041328372b16624d16ef144c2b7dc0bbe738a",
+      "size_in_bytes": 130560
+    },
+    {
+      "_path": "Library/include/graphite2/Font.h",
+      "path_type": "hardlink",
+      "sha256": "287a7c8c0a0fc91e76af0ead1e18fd5fcc803f25183de8a5f2398ed59539e466",
+      "size_in_bytes": 18738
+    },
+    {
+      "_path": "Library/include/graphite2/Log.h",
+      "path_type": "hardlink",
+      "sha256": "0e9e60eee1465a14eafcf7a78b90a03aab4c12748cd3f8c006586d8e5efeba60",
+      "size_in_bytes": 2963
+    },
+    {
+      "_path": "Library/include/graphite2/Segment.h",
+      "path_type": "hardlink",
+      "sha256": "6654971a70a6ed798d25fdfc5d858a957fed29f9eb5d3c90f5cd9b8b65b8cca5",
+      "size_in_bytes": 20303
+    },
+    {
+      "_path": "Library/include/graphite2/Types.h",
+      "path_type": "hardlink",
+      "sha256": "ef99b4fada039d434a86a2dda2a2aa6e31be8e772ad2a5b05e630ec0de026891",
+      "size_in_bytes": 3082
+    },
+    {
+      "_path": "Library/lib/graphite2.lib",
+      "path_type": "hardlink",
+      "sha256": "a2600d80ab951568b4e0dfe21b653b9dcc213b7abb92f92c407a6ff3223df5f0",
+      "size_in_bytes": 16762
+    },
+    {
+      "_path": "Library/lib/pkgconfig/graphite2.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "C:/ci/graphite2_1654175871284/_h_env",
+      "sha256": "09283e2110fe0e91d0e7c17c63053bbf0acf9048b2df35c542ce216d9c15f939",
+      "size_in_bytes": 227
+    },
+    {
+      "_path": "Library/share/graphite2/graphite2-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "519c7fd5f375a776d976c5872104cf4e40c63441488972a0e580a89b13affb47",
+      "size_in_bytes": 901
+    },
+    {
+      "_path": "Library/share/graphite2/graphite2.cmake",
+      "path_type": "hardlink",
+      "sha256": "e70f2b05eb4cf94f79a91820eee9b3b71d90ab56a00c506cf5477ad9b967e22a",
+      "size_in_bytes": 3165
+    }
+  ],
+  "paths_version": 1
+}

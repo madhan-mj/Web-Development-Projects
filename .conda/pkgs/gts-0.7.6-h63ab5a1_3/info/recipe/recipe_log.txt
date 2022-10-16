@@ -1,0 +1,182 @@
+commit 4196b5463df74ff6ecfd0dea02809e8a8a2115bc
+Merge: 5c87d4a 4775bc4
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Wed Mar 23 09:22:30 2022 -0500
+
+    Merge pull request #1 from AnacondaRecipes/platform-support
+    
+    Port to additional platforms
+
+commit 4775bc4c8647dac42bfc256a85b53236c7d1fd8f
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Thu Mar 17 12:27:39 2022 -0500
+
+    use alternative download link
+
+commit 21fc44c6d4af0f81aea8d0847e52f21ce7c26889
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Thu Mar 17 10:39:58 2022 -0500
+
+    fix license
+
+commit e844cc727eb89d5f38c5e4713d524699853dc322
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Thu Mar 17 09:15:08 2022 -0500
+
+    fix typo
+
+commit 66ca9b2e7753a52f7c88901e6a84c6e9afd5be09
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Wed Mar 16 23:30:22 2022 -0500
+
+    add description
+
+commit 5e65f64814a9562f7128e2e72dcc8a98e7e67b83
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Wed Mar 16 17:48:49 2022 -0500
+
+    fix license
+
+commit e95c01f85e011dacc24cf04a230a994fe453b41d
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Wed Mar 16 15:19:42 2022 -0500
+
+    formatting
+
+commit 60b31d2ec76220697536a7a39e35652769d3ac68
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Wed Mar 16 13:17:53 2022 -0500
+
+    add dev_url and doc_url
+
+commit a1eb2ccb3f3d3062a9196f5c716fe892b6364960
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Wed Mar 16 13:14:12 2022 -0500
+
+    update source URL
+
+commit 4ff5659e2d2988d463368d3798851336d1bd4b97
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Wed Mar 16 11:22:00 2022 -0500
+
+    remove excess whitespace
+
+commit 1dbf83c440c58141187d004a86c5245456a9aa15
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Wed Mar 16 10:20:18 2022 -0500
+
+    skip on 32-bit Windows
+
+commit ad22878baa4a61108547b0368baac2640df1a4d2
+Author: Ilan Schnell <ilanschnell@gmail.com>
+Date:   Tue Mar 15 20:24:18 2022 -0500
+
+    bump build number
+
+commit 5c87d4a96fff12095325a83d3bbd4dc28967a84d
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Wed Feb 2 22:15:28 2022 +0100
+
+    fix ident
+
+commit 3b430ee69d5bd1478c4d919e07714a260de78ac9
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Mon Jan 31 18:39:03 2022 +0100
+
+    add patch dependency
+
+commit 96dc29e97bfb16ddb3f46c49c3f127ed44c1f2dc
+Merge: 26b2fb6 17db6e9
+Author: Chris Burr <chrisburr@users.noreply.github.com>
+Date:   Thu Dec 10 16:10:58 2020 +0100
+
+    Merge pull request #2 from regro-cf-autotick-bot/bot-pr_arm_osx_ha44ce3
+    
+    ARM OSX Migrator
+
+commit 17db6e92156e84984074e4066e4150eab60637d7
+Author: Chris Burr <christopher.burr@cern.ch>
+Date:   Mon Dec 7 09:02:50 2020 +0100
+
+    Fix license metadata
+
+commit 271e9f825e732eaaef801c73c02e9329bf0c3bad
+Author: Chris Burr <christopher.burr@cern.ch>
+Date:   Mon Dec 7 08:59:13 2020 +0100
+
+    Disable USE_PREDICATES_INIT when cross-compiling
+
+commit 5267df810d8c674cb0e8244c918cd2f8d98b68d7
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Dec 4 17:48:19 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.5, conda-smithy 3.8.5, and conda-forge-pinning 2020.12.04.16.35.12
+
+commit 24bce34c953b267600f24cef67de3cd2ef4c607c
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Dec 4 17:48:08 2020 +0000
+
+    migration: OSXArm
+
+commit 26b2fb6f5e15cf70f9c6c7f946e6dfdc41980f0c
+Merge: 7beae08 abfa9b1
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Sat Oct 17 20:18:41 2020 +0200
+
+    Merge pull request #1 from regro-cf-autotick-bot/rebuild-glib2646-0-1_h17aa75
+    
+    Rebuild for glib2646
+
+commit abfa9b162cdef413b733f5e17b3776251e2809eb
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Sat Oct 17 09:30:01 2020 +0200
+
+    Use run_exports
+
+commit 4ee10d3fce88425a4d9f4571498417bb97bc9790
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Oct 16 22:35:12 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.4, conda-smithy 3.8.2, and conda-forge-pinning 2020.10.16.18.51.08
+
+commit 7522719466ac2395f09980b97bf0765466b3da0e
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Oct 16 22:35:01 2020 +0000
+
+    Rebuild for glib2646
+
+commit 7beae08ff2aa34256fcfa13a867ada608ef14cf2
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat Aug 8 03:35:30 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit 9e7620bd0feb58b66ce98f4635de193a18dbd240
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Thu May 21 16:25:39 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit cccfd943a7100309b04d97faf9590a06541b37de
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:31:02 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 64f0cf8fc9199f872835ed048e3a961a72a51974
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 20:30:16 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit aaffe160806c340f75530713994e2abec4f0d405
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Feb 29 23:32:49 2020 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit e5069210e6a8e7ae6f891754f41f121fc359ffa8
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Feb 29 23:25:47 2020 +0000
+
+    Initial feedstock commit with conda-smithy 3.6.8.

@@ -1,0 +1,95 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/expat.dll",
+      "path_type": "hardlink",
+      "sha256": "e2464197a5c0ad7f522d5084958bcaa05a6dcd3fb6a8cc9c8682eb542f1426f6",
+      "size_in_bytes": 378880
+    },
+    {
+      "_path": "Library/bin/libexpat.dll",
+      "path_type": "hardlink",
+      "sha256": "e2464197a5c0ad7f522d5084958bcaa05a6dcd3fb6a8cc9c8682eb542f1426f6",
+      "size_in_bytes": 378880
+    },
+    {
+      "_path": "Library/bin/xmlwf.exe",
+      "path_type": "hardlink",
+      "sha256": "a814bb16deda3002850287754de9b06b935cf719fb4fb1899de86c062bf6c1b3",
+      "size_in_bytes": 200704
+    },
+    {
+      "_path": "Library/include/expat.h",
+      "path_type": "hardlink",
+      "sha256": "02e0df98d3ab514e0a25f28cfa6f1bee46a4a3b86773dd609774939534bef278",
+      "size_in_bytes": 43535
+    },
+    {
+      "_path": "Library/include/expat_config.h",
+      "path_type": "hardlink",
+      "sha256": "24fb27ae991445ad0da406d5991c9e75faa7b9ebe806262fc2b41c991593c436",
+      "size_in_bytes": 3340
+    },
+    {
+      "_path": "Library/include/expat_external.h",
+      "path_type": "hardlink",
+      "sha256": "7ca9ed28dd5e08eac425931894fabd4c876db8f4be26f9b9a33c2e4f70a0d6c3",
+      "size_in_bytes": 6029
+    },
+    {
+      "_path": "Library/lib/cmake/expat-2.4.9/expat-config-version.cmake",
+      "path_type": "hardlink",
+      "sha256": "f5983ac6381221da3053cb42e2edfe48a272903ae89e996782af5998f52368b8",
+      "size_in_bytes": 2948
+    },
+    {
+      "_path": "Library/lib/cmake/expat-2.4.9/expat-config.cmake",
+      "path_type": "hardlink",
+      "sha256": "275dd795ba90ff99bb31fffd6c495c8037124ab1c80a0edef671d5b6ce02ef89",
+      "size_in_bytes": 3736
+    },
+    {
+      "_path": "Library/lib/cmake/expat-2.4.9/expat-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "b5cc8ecdd47b2633abecf09d315a779fd44ef4103e62019b918bc6790a7717eb",
+      "size_in_bytes": 892
+    },
+    {
+      "_path": "Library/lib/cmake/expat-2.4.9/expat.cmake",
+      "path_type": "hardlink",
+      "sha256": "405a9343d972dc60f48d92f8f1520a53c16c4c54be5d5e49b5df998d1f2e24e7",
+      "size_in_bytes": 3336
+    },
+    {
+      "_path": "Library/lib/expat.lib",
+      "path_type": "hardlink",
+      "sha256": "9d31b7783541d5e741dc2d186ae2066b02ca371fd529a67e987691a143d4c4d7",
+      "size_in_bytes": 17934
+    },
+    {
+      "_path": "Library/lib/libexpat.lib",
+      "path_type": "hardlink",
+      "sha256": "9d31b7783541d5e741dc2d186ae2066b02ca371fd529a67e987691a143d4c4d7",
+      "size_in_bytes": 17934
+    },
+    {
+      "_path": "Library/share/doc/expat/AUTHORS",
+      "path_type": "hardlink",
+      "sha256": "59f14371c6b75912cfebb46e6247ee5146766e803a0365b124e5d3011e7d0877",
+      "size_in_bytes": 142
+    },
+    {
+      "_path": "Library/share/doc/expat/changelog",
+      "path_type": "hardlink",
+      "sha256": "c5cbca68cad70b2b3b84831755251c755cf83bf8980e18aec82784de74e5e0d9",
+      "size_in_bytes": 63363
+    },
+    {
+      "_path": "Library/share/man/man1/xmlwf.1",
+      "path_type": "hardlink",
+      "sha256": "5392d85b851d6d1dc25ac4985dd0f0dae69eabb6f1984dbca771f93a16fbdf04",
+      "size_in_bytes": 10370
+    }
+  ],
+  "paths_version": 1
+}

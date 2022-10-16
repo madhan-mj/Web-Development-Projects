@@ -1,0 +1,69 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\000033lpk6n\tmp\build\80754af9\rsync-recipes\fribidi-1.0.10-on-winbuilder, last modified Mon Aug 17 09:58:00 2020
+# ------------------------------------------------
+
+package:
+    name: fribidi
+    version: 1.0.10
+source:
+    patches:
+        - meson-rpaths.patch
+    sha256: 7f1c687c7831499bcacae5e8675945a39bacbad16ecaa945e9454a32df653c01
+    url: https://github.com/fribidi/fribidi/releases/download/v1.0.10/fribidi-1.0.10.tar.xz
+build:
+    number: '0'
+    run_exports:
+        - fribidi >=1.0.10,<2.0a0
+    string: h62dcd97_0
+requirements:
+    build:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - meson 0.55.0 py_0
+        - ninja 1.10.0 py38h7ef1ec2_0
+        - openssl 1.1.1g he774522_1
+        - python 3.8.5 he1778fa_0
+        - setuptools 49.6.0 py38_0
+        - sqlite 3.32.3 h2a8f88b_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_3
+        - vs2017_win-64 19.16.27032.1 hb4161e2_3
+        - vswhere 2.7.1 h21ff451_0
+        - wincertstore 0.2 py38_0
+        - zlib 1.2.11 h62dcd97_4
+    host:
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_3
+    run:
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+    commands:
+        - fribidi -h
+about:
+    description: 'One of the missing links stopping the penetration of free software
+        in Middle
+
+        East is the lack of support for the Arabic and Hebrew alphabets. In order
+        to
+
+        have proper Arabic and Hebrew support, the bidi algorithm needs to be
+
+        implemented. It is our hope that this library will stimulate more free
+
+        software in the Middle Eastern countries.
+
+        '
+    dev_url: https://github.com/fribidi/fribidi
+    doc_url: https://github.com/fribidi/fribidi
+    home: https://github.com/fribidi/fribidi
+    license: LGPL-2.1
+    license_file: COPYING
+    summary: The Free Implementation of the Unicode Bidirectional Algorithm.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mariusvniekerk
+        - msarahan

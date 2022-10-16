@@ -1,0 +1,23 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/getopt.dll",
+      "path_type": "hardlink",
+      "sha256": "d213a9fadb5912732821dcd82f74489eea655dafd03a598edca7cab0e40c87f8",
+      "size_in_bytes": 19456
+    },
+    {
+      "_path": "Library/include/getopt.h",
+      "path_type": "hardlink",
+      "sha256": "2b5a18319b9977b8c782cf1e9fcd73769428d7f81ac197b591806588a2c76b19",
+      "size_in_bytes": 5004
+    },
+    {
+      "_path": "Library/lib/getopt.lib",
+      "path_type": "hardlink",
+      "sha256": "18f601b8430e559c4b2818c2b96b7b5ae92ae1c00771541f28028a5aadb7b326",
+      "size_in_bytes": 3346
+    }
+  ],
+  "paths_version": 1
+}

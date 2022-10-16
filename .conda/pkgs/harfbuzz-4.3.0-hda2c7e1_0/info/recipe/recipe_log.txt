@@ -1,0 +1,506 @@
+commit 1974fe60d5483605cdbeeadc2cfbf781b83e6fed
+Merge: e0be909 c29f93b
+Author: Charles Bousseau <16641587+cbouss@users.noreply.github.com>
+Date:   Tue Jun 28 16:59:36 2022 -0400
+
+    Merge pull request #16 from AnacondaRecipes/cb_harfbuzz_4.3.0
+    
+    harfbuzz 4.3.0
+
+commit c29f93b8778dcb799ed17dd04ea3805bbdea3636
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Tue Jun 28 16:55:24 2022 -0400
+
+    ppc64le workaround
+
+commit b023902682871388859fabaa63449d99bcb8bbad
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Tue Jun 28 15:15:42 2022 -0400
+
+    ppc64le cdt workaround
+
+commit 875b4171a095c853def8a29c6994f76be451c8bb
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Tue Jun 28 15:13:11 2022 -0400
+
+    remove abs.yaml before merge
+
+commit 1864c555e33e4c5c56dcbf8fecf04d58b98fc4a6
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Fri Jun 3 13:57:40 2022 -0400
+
+    add temp abs.yaml
+
+commit c5bc330ea38d34667a6780e47b9156940593d9ee
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Fri Jun 3 12:46:38 2022 -0400
+
+    put back gobject-introspection in host
+
+commit 4bd579ad8845652cab4cbd8cc6e6a9e61e84043d
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Fri Jun 3 12:28:29 2022 -0400
+
+    fix ppc64le
+
+commit 4955efd73c80cfab3a0f3df70faedd543a73547b
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Thu Jun 2 20:52:35 2022 -0400
+
+    correct typo...
+
+commit 0f7f189f99687e65901f0cb31bb6f36db6f52ee9
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Thu Jun 2 20:52:05 2022 -0400
+
+    add cdt libxcb for cairo ppc64le
+
+commit db9f43a04dc7c39565cd3094e57e59280884cbc4
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Thu Jun 2 17:22:03 2022 -0400
+
+    adding xorg-11-proto-devel for ppc64le x86_64
+
+commit 648529a591cda560bea30cd97679725ef06b49e3
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Thu Jun 2 16:34:05 2022 -0400
+
+    skip graphite also skips graphite2
+
+commit c67c786c8974b14ff005a6d6c2b037834554cb66
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Thu Jun 2 15:36:00 2022 -0400
+
+    set cairo to 1.16
+
+commit 20a69247b653bf5eb65fffa86f96e81868f704ff
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Thu Jun 2 15:11:11 2022 -0400
+
+    fix windows build
+
+commit 70f42f86ad691945391c285b831026cf7f7dc1c1
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Thu Jun 2 12:06:42 2022 -0400
+
+    add libpthread to missing_dso_whitelist
+
+commit 238a6829f7f416b36d5843aaec11677bf31676a4
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Thu Jun 2 11:55:02 2022 -0400
+
+    update to 4.3.0
+
+commit e0be909a4e393244c4a1325efcf9117f184bdd7d
+Merge: f0c0dce 86a5bfe
+Author: anaconda-pkg-build <66446536+anaconda-pkg-build@users.noreply.github.com>
+Date:   Thu Dec 2 08:53:02 2021 +0100
+
+    Merge pull request #7 from AnacondaRecipes/pbs_3.1.2_20211127T093438
+    
+    harfbuzz 3.1.2
+
+commit 86a5bfe4da1ea543300b09eb5d465893d6345c15
+Author: Serhii Kupriienko <79282962+skupr-anaconda@users.noreply.github.com>
+Date:   Wed Dec 1 13:11:03 2021 +0200
+
+    Add missing_dso_whitelist
+
+commit e5a2c773361456ce9739e14e20a2e6df5f6cd7c3
+Author: Serhii Kupriienko <79282962+skupr-anaconda@users.noreply.github.com>
+Date:   Wed Dec 1 13:05:58 2021 +0200
+
+    Add run
+
+commit bb1363442106f225a64c00837c8b85492b88448d
+Author: Serhii Kupriienko <79282962+skupr-anaconda@users.noreply.github.com>
+Date:   Wed Dec 1 12:50:17 2021 +0200
+
+    Add pthread-stubs
+
+commit 0408af8e8fa787a625c5446bd020e28bf4aa4515
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Sat Nov 27 09:34:42 2021 +0000
+
+    DOR update to 3.1.2
+
+commit f0c0dcef5c37c3b6e3fb1d992d9f18ebc46b01ec
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Sat Aug 14 12:44:35 2021 +0200
+
+    fix osx-arm64 build
+
+commit 460d99e6b43ee2c9a44b761c199692b46668dd41
+Author: Serhii Kupriienko <skupriienko@anaconda.com>
+Date:   Wed May 26 16:19:09 2021 +0300
+
+    Add license_family
+
+commit d4cd45df994d50e65a46434281a5691606837ae3
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Wed May 26 02:39:53 2021 +0000
+
+    DOR update to 2.8.1
+
+commit 8c677d064ff1449534f432df55d0cc4d3fc4711f
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Tue Mar 16 19:07:24 2021 +0000
+
+    DOR update to 2.8.0
+
+commit 590e3d4394b953ea93deeabfdf1333222c11f6ab
+Author: Cheng H. Lee <clee@anaconda.com>
+Date:   Tue Mar 9 20:37:27 2021 -0600
+
+    Bump version to 2.7.4
+
+commit a885e1859baf1efe2756e097e8c4d2af69d0f542
+Author: Cheng H. Lee <clee@anaconda.com>
+Date:   Wed Feb 24 18:34:29 2021 -0600
+
+    Update recipe for linux-s390x
+
+commit 2f95b2fbae851ca547dc70dc5f8983c44741a29f
+Author: Cheng H. Lee <clee@anaconda.com>
+Date:   Sat Jun 27 13:08:58 2020 -0500
+
+    Rebuild with additional features
+    
+    Modify build environment and script to enable various features needed by
+    downstream (dependent) packages, like pango:
+    
+    - CoreText support on macOS.
+    - gobject introspection support
+    
+    (gobject introspection was requested in previous versions of this
+    version's recipe, but was never actually built into the package.)
+
+commit 7a6e6fa8f729e9c3e45614e49f224252c8026c80
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Jun 25 15:36:22 2020 -0500
+
+    remove .la files during build
+
+commit c0c71189ee56d9cd39b69d415f76d4e52e5ce0e1
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Jun 25 15:35:59 2020 -0500
+
+    2.4.0
+
+commit ce95c76bb7fa991980be601edaa1bfe773af01b2
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon Oct 1 10:07:50 2018 -0500
+
+    update to 1.9.0
+
+commit e5a5cc005e1c74ef30dd58d34c5717ce886c30d8
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Aug 28 09:12:32 2018 -0500
+
+    update to 1.8.8
+
+commit e9ffb585e3e56669dd73aab29054e97a3dbb514c
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Thu Jul 26 00:01:49 2018 -0500
+
+    Bump version to 1.8.4
+
+commit 41936a93936b9c630814def02549149b2d29c8f8
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri May 25 15:40:39 2018 +0100
+
+    Skip on Windows, use make on osx-64 too
+
+commit 88c4d8463bd6cd0a0e238b2f2542f0313923e4b2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri May 25 15:31:35 2018 +0100
+
+    Remove loads of pointlessness
+
+commit 3861fe7bd967e86e35600ea1e52d7a30f74ad094
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Apr 14 03:13:35 2018 +0100
+
+    Bump build number for new general pinnings
+
+commit e97e1c8437ee2c8952f49b5484ff1056ec9d2984
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Mar 29 13:26:46 2018 -0500
+
+    remove detect_binary_files_with_prefix
+
+commit 6cc28160a2624b3308279d3f5f347be4bd97c4ec
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Sep 1 01:45:09 2017 -0700
+
+    add run_exports
+
+commit d03347b5a3d60440d4f5d98ac0fcbdd5f6c27e4c
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Mar 29 13:09:04 2018 -0500
+
+    add libxcb requirement
+
+commit 509b8d529b4cb36ce6ae64d6590390e0e18896b2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Aug 27 01:34:59 2017 +0100
+
+    Generalize logging
+
+commit d2756394aa2beaa877c9e5a72bd80fc3ce52fe56
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Aug 25 20:52:27 2017 +0100
+
+    Generalized pinning
+
+commit f789624b2dd8c868e310567a7a890ce72d6c9c55
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Aug 25 12:51:41 2017 +0100
+
+    Add cross-compilation support
+
+commit ace6153fae62e33f47253769aa558215d9346400
+Merge: 4dc8088 8a5c934
+Author: Peter Williams <peter@newton.cx>
+Date:   Sat Mar 17 12:43:14 2018 -0400
+
+    Merge pull request #15 from regro-cf-autotick-bot/1.7.6
+    
+    harfbuzz v1.7.6
+
+commit 8a5c934f30881a5aa3c7da9d5cbc605f94716050
+Author: Travis CI User <travis@example.org>
+Date:   Fri Mar 16 19:16:39 2018 +0000
+
+    updated v1.7.6
+
+commit 4dc80884c0c3828d9cee7786729e5f92be5e3df8
+Merge: c4bbb24 f4850f4
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Nov 26 19:13:44 2017 -0200
+
+    Merge pull request #14 from ocefpaf/update_to_1.7.1
+    
+    Update to 1.7.1
+
+commit f4850f4dcb6b015b306f5cd365f9376c2da828b9
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Nov 26 18:58:42 2017 -0200
+
+    update to 1.7.1
+
+commit 4cbd538121ae36c78b0734ff1fb5746e798fcece
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Nov 26 18:58:33 2017 -0200
+
+    rerender
+
+commit c4bbb24f50033e5714f44c2913495eacb535e3f0
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 20:13:45 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 5bca83bf84dbbd277951d81d442e46ed30774b71
+Merge: 52d593a e410ed6
+Author: Peter Williams <peter@newton.cx>
+Date:   Sun Mar 5 10:45:06 2017 -0500
+
+    Merge pull request #13 from pkgw/pr-fix-osx
+    
+    Fix OSX build.
+
+commit e410ed6d04e42b79050cea3b55952747c681e205
+Author: Peter Williams <peter@newton.cx>
+Date:   Sun Mar 5 10:17:42 2017 -0500
+
+    Fix OSX build
+    
+    I don't see how the previous commits could have broken linking on OSX, and
+    they were CI'd before the new gobject-introspection was distributed, I think.
+    But so be it. I think this change will fix OSX.
+
+commit 52d593a6241f32855da0bee44f36e744db6b551e
+Merge: 190e9d9 12b663b
+Author: Peter Williams <peter@newton.cx>
+Date:   Sat Mar 4 12:50:56 2017 -0500
+
+    Merge pull request #12 from pkgw/pr-unskip
+    
+    Need to rerender to get the Travis Python matrixing to work!
+
+commit 12b663b1495d12adda106bba8a2f0ecee304b410
+Author: Peter Williams <peter@newton.cx>
+Date:   Sat Mar 4 12:42:42 2017 -0500
+
+    Need to rerender to get the Travis Python matrixing to work!
+
+commit 190e9d9c7eb992f2695dd89085678c7f863fe8b2
+Merge: 73b6edd d41be73
+Author: Peter Williams <peter@newton.cx>
+Date:   Sat Mar 4 10:04:12 2017 -0500
+
+    Merge pull request #11 from pkgw/pr-upstream-1_4_3
+    
+    Update to version 1.4.3
+
+commit d41be73b163f2f3296b082e4fcc53b817198630d
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Mar 3 09:44:59 2017 -0500
+
+    Sadly, the tests still fail
+    
+    Also tweak the Python version filtering as per @ocefpaf's suggestion.
+
+commit 8d7890ca3acacfb682e1ca5afdbb5b687305a747
+Author: Peter Williams <peter@newton.cx>
+Date:   Fri Mar 3 09:06:01 2017 -0500
+
+    Update to version 1.4.3
+    
+    This comes with some general tidying of the build script. We also add
+    graphite2 as a dependency and produce GObject introspection bindings on both
+    Linux and OSX.
+
+commit 04c43f44c0db617553c6ce8a760992dd758f0d29
+Author: Peter Williams <peter@newton.cx>
+Date:   Thu Mar 2 08:46:25 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit 73b6edd1994f419cd847c4d5394e9397ac90f3b7
+Merge: 1db308b b708244
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Feb 5 07:10:05 2017 -0300
+
+    Merge pull request #10 from ocefpaf/rerender
+    
+    re-render with auto
+
+commit b7082447b6233c129cd9f1a67b2d6a6a810b0fcb
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sun Feb 5 07:03:14 2017 -0300
+
+    re-render with auto
+
+commit 1db308b75ff07e3ff56fb84eaa4689c62399a1d6
+Merge: b62648d e8e97d9
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Feb 5 06:50:55 2017 -0300
+
+    Merge pull request #9 from ocefpaf/update_icu_pin
+    
+    Update icu pin
+
+commit e8e97d9b376cacf2e446f111361efe5a148d590d
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Feb 1 14:39:23 2017 -0300
+
+    Update ICU pin.
+
+commit b62648dcaf22d9f5d6c5a88365ea512f58aa5356
+Merge: a4fc9f9 b34293e
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Jan 15 14:10:09 2017 -0300
+
+    Merge pull request #7 from pkgw/patch-1
+    
+    Rebuild for pin against freetype 2.7
+
+commit b34293e5b9e7bde685e4eedb3b51115135ead016
+Author: Peter Williams <peter@newton.cx>
+Date:   Thu Dec 22 21:04:44 2016 -0500
+
+    Rebuild for pin against freetype 2.7
+    
+    And add self as a maintainer.
+
+commit a4fc9f92e53fccb5cdf650a5fc0eeb6d986862ff
+Merge: 9e6c639 b84fc31
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Dec 13 09:00:56 2016 -0300
+
+    Merge pull request #4 from ocefpaf/bump
+    
+    Update to 1.3.4...
+
+commit b84fc31e5870086edaa83d2385f07c265a0ef557
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Dec 7 08:55:54 2016 -0300
+
+    Comment make check again
+
+commit b643640f625df14059cf382b82812d3a6c0ad3c2
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Dec 6 15:51:28 2016 -0300
+
+    Update to 1.3.4
+
+commit 9e6c639c559eea46ea1f405d0c4c0add5d789efd
+Merge: af41ada 6c51fc9
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Dec 8 15:23:05 2016 -0300
+
+    Merge pull request #5 from ocefpaf/conda_build_2
+    
+    Conda build 2
+
+commit 6c51fc99b6f98de2cc1f26c458f2e929b1c835ca
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Dec 7 17:21:05 2016 -0300
+
+    With autoconf
+
+commit 7171162abab228208ae668be560bf2b0acb700a6
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Wed Dec 7 13:05:34 2016 -0300
+
+    rerender with auto
+
+commit af41ada685679a668ae01c74291de385b8c6b3fc
+Merge: 1c8a876 ed1f5b0
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Dec 8 06:58:55 2016 -0300
+
+    Merge pull request #6 from conda-forge-admin/feedstock_version_pin_master
+    
+    MNT: Update pinned versions.
+
+commit ed1f5b005e6d7d134e9a9eeb92a7ab66df64e29f
+Author: conda-forge-admin <conda-forge@googlegroups.com>
+Date:   Thu Dec 8 02:06:49 2016 +0000
+
+    MNT: Updated some of the pinned versions
+
+commit 1c8a87692a291fd5fc61050c9b423de1bf50be59
+Merge: f6cb1bc 9d3205a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Dec 6 13:55:24 2016 -0300
+
+    Merge pull request #3 from ocefpaf/update
+    
+    Update
+
+commit 9d3205a96e0923f7598799a1fbd1928612064828
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Dec 6 10:52:39 2016 -0300
+
+    Pin cairo
+
+commit 84ebeddef4efe2ebe147c6ec435fd8ed940f8716
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Dec 6 10:52:32 2016 -0300
+
+    rerender
+
+commit f6cb1bc1f7d8625915bc084925591bc7ca4f1fa7
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Aug 16 08:35:16 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit c32bcd64b9778112250ab2ce8801aafb83d5e7ad
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Aug 16 08:33:58 2016 +0000
+
+    Initial commit of the harfbuzz feedstock.

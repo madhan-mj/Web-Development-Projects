@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "getopt-win32-0.1-h2bbff1b_0.conda",
+  "legacy_bz2_md5": "4c43f78556f404f8d1e485d693f3f8bd",
+  "license": "LGPL-3.0-only",
+  "license_family": "GPL",
+  "md5": "a04b6d308d564786ebc7f7f5745fe637",
+  "name": "getopt-win32",
+  "platform": "win32",
+  "sha256": "a2d5e2dd8c0e3e7d2e4e140e3c2d2f228691ab92a0abb0c7a721aa16bed32635",
+  "size": 18955,
+  "subdir": "win-64",
+  "timestamp": 1655992135311,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/getopt-win32-0.1-h2bbff1b_0.conda",
+  "version": "0.1"
+}

@@ -1,0 +1,367 @@
+commit 707696560a6d4b3180caf78c59a0d73d273807f8
+Merge: bf76e34 d708dff
+Author: Charles Bousseau <16641587+cbouss@users.noreply.github.com>
+Date:   Thu Jun 30 15:56:32 2022 -0400
+
+    Merge pull request #5 from AnacondaRecipes/cb_graphviz_2.50
+    
+    graphviz 2.50.0
+
+commit d708dff5b89eca5aa32d8ba92846b22f5626ff04
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Thu Jun 30 15:30:11 2022 -0400
+
+    remove temp files
+
+commit 8ad27e4ef2f08eefaa7c2a8d09d5c69b25e306d1
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Thu Jun 30 15:27:30 2022 -0400
+
+    ppc4le cdt workaround
+
+commit a05e8d8f682dce19f10f57b571121b854cae5c6b
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Tue Jun 21 20:40:50 2022 -0400
+
+    add tiff support on linux through gtk2
+
+commit db39205e6f9dfe087485b4a2e6b6908a5a3fdc5e
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Mon Jun 20 20:50:06 2022 -0400
+
+    Use getopt-win32 on windows
+
+commit 2b00bd53b356c3b88894a24ca77765033c6a8a6b
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Mon Jun 20 13:55:18 2022 -0400
+
+    Update win and linux builds
+
+commit a219e39e0772300cd81af6e45ca54e94d84295b4
+Author: Charles Bousseau <cbousseau@anaconda.com>
+Date:   Thu May 26 16:33:03 2022 -0400
+
+    Update to 2.50.0
+
+commit bf76e34b6d65897ff766989a7974ac033be3a168
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Wed Feb 2 22:14:58 2022 +0100
+
+    fix ident
+
+commit e0aacef70386674259884a23fbb5f167110f196d
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Mon Jan 31 18:27:05 2022 +0100
+
+    add patch dependency
+
+commit 4442b46b7f4fed258033164423a4aa4a26b769bb
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Mon Aug 23 14:21:31 2021 +0200
+
+    update to version 2.48.0
+
+commit 99c0befea26ba9b85f81f1ee3b15278f145c33a1
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Sat Aug 14 13:21:01 2021 +0200
+
+    add osx-arm64 support
+
+commit 7ce9727a7a8ce71ef06ee41484a5edc536543290
+Author: Cheng H. Lee <clee@anaconda.com>
+Date:   Wed Feb 24 20:25:01 2021 -0600
+
+    Update recipe for linux-s390x
+
+commit b56b0f7d1fae99d101b848e83644ece9874de28a
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Wed Sep 23 11:35:12 2020 -0500
+
+    remove .la files before build
+
+commit 065544e77821fca88223ee53b1636b3bcb8ec7f5
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Aug 4 20:50:12 2018 -0500
+
+    Fix Windows build
+
+commit 259fdb1893af48e6c04a052f44775f71afee6010
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Mon Jul 23 13:43:30 2018 +0100
+
+    Bump build number
+
+commit ca0dad95b1b1b3412e0e0469f490439da09839ca
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Jul 8 14:49:34 2018 -0700
+
+    Bump build to avoid libuuid on osx
+
+commit 7578b7304cb10bd26201e02cdde68fb3fadd0464
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sat Jul 7 10:19:18 2018 +0000
+
+    Add some cdt deps
+
+commit e1649f42719275eefcc5bd16b9bb5c2c6dfa3fd2
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Fri Jul 6 15:47:45 2018 -0400
+
+    Loads of fixes
+
+commit 45af2d5544e288fc797d04d01d5782b14ba1ae81
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Jun 28 11:57:45 2018 -0700
+
+    Add glib dep for osx
+
+commit ce8d3bba0be176f4b6cca90aaf42b5dc4224bf82
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Jun 21 09:30:28 2018 -0700
+
+    Update for conda-build 3
+
+commit 046c1d35d8c8f6042d253d74220a323c1c5b388b
+Merge: 1de460c 909d290
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Nov 27 10:52:03 2017 -0200
+
+    Merge pull request #20 from ocefpaf/update_pins
+    
+    update pins
+
+commit 909d29068f43d42fb2994d7da408a21c8ed6eab6
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Nov 26 21:31:10 2017 -0200
+
+    update pins
+
+commit 1de460c0c90faf7186a54978300f78d6c236fbaf
+Merge: 5397532 6433fff
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Nov 5 18:05:45 2017 -0200
+
+    Merge pull request #19 from ocefpaf/pin_zlib_1.2.11
+    
+    pin zlib 1.2.11
+
+commit 6433fffa820ecd9b3dfa7aae78a54c2f00dc4483
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Nov 5 09:09:09 2017 -0200
+
+    pin zlib 1.2.11
+
+commit 5397532ce715bd334c0842259dab9a1ce3186ed7
+Merge: 390579a 14e1e0a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Oct 5 08:54:22 2017 -0400
+
+    Merge pull request #17 from jakirkham-feedstocks/refresh_pinnings
+    
+    Refresh pinnings
+
+commit 14e1e0a5b16fcad5dcfa473374077b35e9edf986
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Oct 4 23:14:56 2017 -0400
+
+    Bump build number to 5
+    
+    Rebuild now that the pinnings are updated. Also rebuild to package the
+    license file.
+
+commit 081a03bed942490e95ba18a8eec129e99137003c
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Oct 4 23:14:41 2017 -0400
+
+    Make the license file easy to find on Windows
+    
+    The license file shows up in a different location on Windows because we
+    are using the prebuilt binaries there. So copy the license file into the
+    same location `conda-build` would look for it on Linux. That way we can
+    package the license file the same way on all platforms.
+
+commit 64eededf8261d3d9c249da1013a365e4bfb781c8
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Oct 4 18:10:34 2017 -0400
+
+    Package the license file
+
+commit 279524eed818586e30639fb6c6a136eed19122b3
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Oct 4 18:08:19 2017 -0400
+
+    Refresh pinnings
+    
+    Update the pinnings of graphviz to match our current org pinnings.
+    
+    ref: https://github.com/conda-forge/conda-forge.github.io/blob/ed5e1d991aad3f7e9d4c510c234a2175eb00a371/scripts/pin_the_slow_way.py#L40-L91
+
+commit ee96e07ad314945e011e812d614865cc17f0921b
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Oct 4 18:04:04 2017 -0400
+
+    Fix selector spacing in requirements
+    
+    Align the selectors so that we can read the pinnings clearly.
+
+commit d219210f9cbe08e4ec1bd33aa7b9bad170d74433
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Oct 4 18:02:34 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 390579ab548789a6d6c742ca25d72b85968c3d32
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:46:56 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit acb57a2f2d8cf81209df86266cb843b7428981cf
+Merge: bbfe3c7 c3ce844
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Apr 2 23:19:01 2017 -0400
+
+    Merge pull request #12 from jakirkham/re-render__master__2.2.2
+    
+    MNT: Re-rendered with conda-smithy 2.2.2 [ci skip]
+
+commit c3ce8442abc296fc7455b3b160b3d08265a8c060
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Apr 2 23:10:49 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.2.2
+
+commit bbfe3c7be2a448dd11db165a18c3edfd5ee6a95d
+Merge: 780a6f2 37fb4d5
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Mar 12 17:06:58 2017 -0300
+
+    Merge pull request #8 from ocefpaf/update_pin
+    
+    Update pin
+
+commit 37fb4d57d4486f5602e174eeaef6fd46bfdf6291
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sun Mar 12 17:05:26 2017 -0300
+
+    update pins
+
+commit 59caf373ab1bdecbbb811a4e8866d9be77e79430
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sun Mar 12 17:05:19 2017 -0300
+
+    rerender with auto
+
+commit 780a6f2cc1d6058fb1ae3994b1a759d4bc03bdd7
+Merge: cd113a7 9a041ad
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jan 8 18:14:07 2017 -0500
+
+    Merge pull request #7 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 9a041adaf70f65fe6e54bec6cc33ced04a2e924f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jan 5 01:38:39 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.7.0.
+
+commit cd113a7e4a9416317261056ff09bd810ecc73812
+Merge: e421b2a 8b71c92
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Dec 21 18:22:34 2016 -0800
+
+    Merge pull request #6 from jjhelmus/rebuild_long_prefix
+    
+    Increment build number for Linux long prefix build
+
+commit 8b71c92d11366942e2796a3d48bbd6a94be470b3
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Dec 13 09:55:20 2016 -0600
+
+    Empty commit for CircleCI
+
+commit fd77a765db34e3cd644f83db8b867affc8398749
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Dec 13 09:53:13 2016 -0600
+
+    Increment build number
+
+commit e421b2abae4ae9cbe88f97a90051aaf51ff48bd1
+Merge: bb76e8b d94d66d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Dec 7 01:50:34 2016 -0500
+
+    Merge pull request #5 from jjhelmus/long_prefix
+    
+    Build long prefix package using conda-build 2.x
+
+commit d94d66d1c074e2aeecd339a4fc52c5b24bcf58f9
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Dec 6 11:14:40 2016 -0600
+
+    Build long prefix package using conda-build 2.x
+
+commit c5d0d6233e1f6356a42bafed332120c02363b5c1
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Tue Dec 6 11:13:30 2016 -0600
+
+    MNT: Re-rendered with conda-smithy 1.6.1
+
+commit bb76e8ba985db4f97a305300e7e2c9ae261b74f4
+Merge: cb2467e a873e05
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Sat Oct 22 10:37:21 2016 -0500
+
+    Merge pull request #4 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit a873e050c1f43db4cb18c375c2a4b6003eb79b00
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Oct 22 03:07:03 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.3.
+
+commit cb2467ec31102a508ec3a8587ace61e6700558a8
+Merge: 9270833 8c7b66d
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Wed Oct 12 10:08:14 2016 -0500
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 8c7b66d5d31659a8c393f8395e614d31c394c9de
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Oct 12 04:48:18 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.2.
+
+commit 92708331946939e23eb94d4f7da901730059d208
+Merge: cbd1b30 0fe4f8c
+Author: Carlos Cordoba <ccordoba12@gmail.com>
+Date:   Mon Aug 1 02:54:10 2016 -0500
+
+    Merge pull request #1 from conda-forge-admin/feedstock_version_pin_master
+    
+    MNT: Update pinned versions.
+
+commit 0fe4f8c336692c4bc6435928d47c23e743a91594
+Author: conda-forge-admin <conda-forge@googlegroups.com>
+Date:   Mon Aug 1 03:32:38 2016 +0000
+
+    MNT: Updated some of the pinned versions
+
+commit cbd1b30b67ac430b4ed817140b10b34a77752f5d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Jun 13 22:13:18 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 64798f4567b6c56282d5cd320462c75d81047e87
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Mon Jun 13 22:12:15 2016 +0000
+
+    Initial commit of the graphviz feedstock.

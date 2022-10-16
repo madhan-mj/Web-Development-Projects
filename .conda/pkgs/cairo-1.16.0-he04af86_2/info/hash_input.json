@@ -1,0 +1,10 @@
+{
+  "glib": "2",
+  "zlib": "1.2",
+  "target_platform": "win-64",
+  "xz": "5",
+  "c_compiler": "vs2017",
+  "channel_targets": "defaults",
+  "libpng": "1.6",
+  "pixman": "0.40"
+}

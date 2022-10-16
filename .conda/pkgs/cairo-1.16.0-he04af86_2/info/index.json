@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64",
+  "build": "he04af86_2",
+  "build_number": 2,
+  "depends": [
+    "glib >=2.69.1,<3.0a0",
+    "libpng >=1.6.37,<1.7.0a0",
+    "pixman",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "zlib >=1.2.12,<1.3.0a0"
+  ],
+  "license": "LGPL-2.1-or-later or MPL-1.1",
+  "license_family": "LGPL",
+  "name": "cairo",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1654194775603,
+  "version": "1.16.0"
+}
